@@ -11,6 +11,10 @@ return array(
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
     'OAuth\\Unit' => array($vendorDir . '/lusitanian/oauth/tests'),
     'OAuth' => array($vendorDir . '/lusitanian/oauth/src'),
+    'Illuminate\\Support' => array($vendorDir . '/illuminate/support'),
+    'Illuminate\\Events' => array($vendorDir . '/illuminate/events'),
+    'Illuminate\\Database' => array($vendorDir . '/illuminate/database'),
+    'Illuminate\\Container' => array($vendorDir . '/illuminate/container'),
     'Hybridauth' => array($vendorDir . '/hybridauth/hybridauth/src'),
     'Gigablah\\Silex\\OAuth' => array($vendorDir . '/gigablah/silex-oauth/src'),
     'Doctrine\\DBAL' => array($vendorDir . '/doctrine/dbal/lib'),
@@ -20,4 +24,6 @@ return array(
     'Doctrine\\Common\\Cache\\' => array($vendorDir . '/doctrine/cache/lib'),
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
     'Doctrine\\Common\\' => array($vendorDir . '/doctrine/common/lib'),
+    'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
+    '' => array($vendorDir . '/bitolaco/silex-eloquent/src'),
 );
